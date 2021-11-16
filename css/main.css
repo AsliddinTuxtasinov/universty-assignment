@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* header style */
+header{
+    width: 95%;
+    min-height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header .header-top{
+    width: 98%;
+    height: 25%;
+    text-align: center;
+}
+header .header-bot{
+    width: 98%;
+    height: 25%;
+}
+header .header-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-footer .card-header{
+    width: 98%;
+    height: 93vh;
+}
+header .header-footer .card-header .img{
+    height: 80vh;
+    overflow: hidden;
+}
+/* main style */
+main{
+    width: 95%;
+}
+/* main-top style */
+main .main-top{
+    min-height: 20rem;
+    background-color: rgb(231, 233, 235);
+}
+.main-top .style1 .gtr-200{
+    margin-top: 3.5rem;
+    
+}
+.main-top .style1 section{
+    margin: 4rem 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-top .style1 section i{
+    font-size: 3rem;
+    margin-top: 2px;
+}
+/* main-middle style */
+main .main-middle{
+    background-color: rgb(243, 242, 241);
+    min-height: 20rem;
+    padding-top: 10%;
+}
+/* main-bot style */
+main .main-bot{
+    min-height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+/* footer style */
+footer{
+    width: 95%;
+}
+footer .footer-top{
+    background-color: rgb(123, 123, 233);
+    color: azure;
+}
+footer .footer-top .container header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-top .container header a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+footer .footer-bot{
+    background-color: rgb(235, 229, 222);
+}
+footer .footer-bot .container .links{
+    width: 100%;
+    list-style: none;
+}
+footer .footer-bot .container form .inp{
+    margin: 1.5px 0;
+}
+footer .footer-bot .icons{
+    min-height: 15rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .footer-bot .icons li a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
